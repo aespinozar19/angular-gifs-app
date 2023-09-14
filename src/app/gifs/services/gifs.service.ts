@@ -10,7 +10,7 @@ export class GifsService {
   public gifList: Gif[] = [];
   private _tagsHistory: string[] = [];
   private apiKey: string = '0AOpCq0U9pkJsZ960n8X1a7BD7AwnETn';
-  private serviceUrl: string = 'http://api.giphy.com/v1/gifs';
+  private serviceUrl: string = 'https://api.giphy.com/v1/gifs';
 
 
   constructor( private http: HttpClient) {
